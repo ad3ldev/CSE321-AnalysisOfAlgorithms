@@ -1,10 +1,46 @@
 import lab1.median.MediansFinder;
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Random;
+
 public class Main {
-    public static void main(String[] args) {
-        double[] array = {329,1,2319,293,913,2,3,4,5,6,7,8,9,10,11,12,13,14};
-        MediansFinder mediansFinder =  new MediansFinder();
-        mediansFinder.medianOfMedians(array);
-        System.out.println(mediansFinder.naive(array));
+    public static void main(String[] args) throws IOException {
+        FileWriter fileWriter = new FileWriter("java-output.txt");
+        for (int times = 1; times <= 5; times++) {
+            fileWriter.write("PASS: " + times + "\n");
+            fileWriter.write("============================================\n");
+            Random random = new Random();
+            long start1 = 0;
+            long end1 = 0;
+            long start2 = 0;
+            long end2 = 0;
+            for (int i = 2; i <= 67_108_864; i *= 2) {
+                int[] array = new int[i];
+                for (int j = 0; j < array.length; j++) {
+                    array[j] = random.nextInt();
+                }
+                int[] array1 = array.clone();
+                int[] array2 = array.clone();
+                int[] array3 = array.clone();
+                MediansFinder mediansFinder = new MediansFinder();
+                fileWriter.write("Array size = " + i + "\n");
+
+                start1 = System.currentTimeMillis();
+                fileWriter.write("Median of Medians: " + mediansFinder.medianOfMedians(array1, array1.length / 2) + "\n");
+                end1 = System.currentTimeMillis();
+
+                start2 = System.currentTimeMillis();
+                fileWriter.write("Randomized Divide and Conquer: " + mediansFinder.randomizedDivideAndConquer(array2) + "\n");
+                end2 = System.currentTimeMillis();
+                fileWriter.write("Naive (to make sure): " + mediansFinder.naive(array3) + "\n");
+
+                fileWriter.write("Time Taken M-o-M: " + (end1 - start1) + "\n");
+                fileWriter.write("Time Taken Randomized: " + (end2 - start2) + "\n");
+
+                fileWriter.write("--------------------------\n");
+            }
+        }
+        fileWriter.close();
     }
 }

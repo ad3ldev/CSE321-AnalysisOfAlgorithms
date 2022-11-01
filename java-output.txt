@@ -1,0 +1,920 @@
+PASS: 1
+============================================
+Array size = 2
+Median of Medians: 2143630644
+Randomized Divide and Conquer: 2143630644
+Naive (to make sure): 2143630644
+Time Taken M-o-M: 1
+Time Taken Randomized: 0
+--------------------------
+Array size = 4
+Median of Medians: -451684874
+Randomized Divide and Conquer: -451684874
+Naive (to make sure): -451684874
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 8
+Median of Medians: 648078573
+Randomized Divide and Conquer: 648078573
+Naive (to make sure): 648078573
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 16
+Median of Medians: 608193342
+Randomized Divide and Conquer: 608193342
+Naive (to make sure): 608193342
+Time Taken M-o-M: 0
+Time Taken Randomized: 1
+--------------------------
+Array size = 32
+Median of Medians: 424323787
+Randomized Divide and Conquer: 424323787
+Naive (to make sure): 424323787
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 64
+Median of Medians: -349326454
+Randomized Divide and Conquer: -349326454
+Naive (to make sure): -349326454
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 128
+Median of Medians: 153296662
+Randomized Divide and Conquer: 153296662
+Naive (to make sure): 153296662
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 256
+Median of Medians: 282215127
+Randomized Divide and Conquer: 282215127
+Naive (to make sure): 282215127
+Time Taken M-o-M: 1
+Time Taken Randomized: 0
+--------------------------
+Array size = 512
+Median of Medians: -175003468
+Randomized Divide and Conquer: -175003468
+Naive (to make sure): -175003468
+Time Taken M-o-M: 0
+Time Taken Randomized: 1
+--------------------------
+Array size = 1024
+Median of Medians: 4865071
+Randomized Divide and Conquer: 4865071
+Naive (to make sure): 4865071
+Time Taken M-o-M: 1
+Time Taken Randomized: 0
+--------------------------
+Array size = 2048
+Median of Medians: -1128244
+Randomized Divide and Conquer: -1128244
+Naive (to make sure): -1128244
+Time Taken M-o-M: 1
+Time Taken Randomized: 0
+--------------------------
+Array size = 4096
+Median of Medians: -40540491
+Randomized Divide and Conquer: -40540491
+Naive (to make sure): -40540491
+Time Taken M-o-M: 1
+Time Taken Randomized: 1
+--------------------------
+Array size = 8192
+Median of Medians: -41014048
+Randomized Divide and Conquer: -41014048
+Naive (to make sure): -41014048
+Time Taken M-o-M: 1
+Time Taken Randomized: 1
+--------------------------
+Array size = 16384
+Median of Medians: -8614570
+Randomized Divide and Conquer: -8614570
+Naive (to make sure): -8614570
+Time Taken M-o-M: 2
+Time Taken Randomized: 3
+--------------------------
+Array size = 32768
+Median of Medians: 8100368
+Randomized Divide and Conquer: 8100368
+Naive (to make sure): 8100368
+Time Taken M-o-M: 6
+Time Taken Randomized: 6
+--------------------------
+Array size = 65536
+Median of Medians: -2793870
+Randomized Divide and Conquer: -2793870
+Naive (to make sure): -2793870
+Time Taken M-o-M: 15
+Time Taken Randomized: 14
+--------------------------
+Array size = 131072
+Median of Medians: 10328162
+Randomized Divide and Conquer: 10328162
+Naive (to make sure): 10328162
+Time Taken M-o-M: 27
+Time Taken Randomized: 30
+--------------------------
+Array size = 262144
+Median of Medians: 5209365
+Randomized Divide and Conquer: 5209365
+Naive (to make sure): 5209365
+Time Taken M-o-M: 15
+Time Taken Randomized: 59
+--------------------------
+Array size = 524288
+Median of Medians: 804841
+Randomized Divide and Conquer: 804841
+Naive (to make sure): 804841
+Time Taken M-o-M: 72
+Time Taken Randomized: 90
+--------------------------
+Array size = 1048576
+Median of Medians: 390216
+Randomized Divide and Conquer: 390216
+Naive (to make sure): 390216
+Time Taken M-o-M: 128
+Time Taken Randomized: 185
+--------------------------
+Array size = 2097152
+Median of Medians: 426061
+Randomized Divide and Conquer: 426061
+Naive (to make sure): 426061
+Time Taken M-o-M: 93
+Time Taken Randomized: 381
+--------------------------
+Array size = 4194304
+Median of Medians: 1055596
+Randomized Divide and Conquer: 1055596
+Naive (to make sure): 1055596
+Time Taken M-o-M: 549
+Time Taken Randomized: 782
+--------------------------
+Array size = 8388608
+Median of Medians: 441153
+Randomized Divide and Conquer: 441153
+Naive (to make sure): 441153
+Time Taken M-o-M: 1165
+Time Taken Randomized: 1622
+--------------------------
+Array size = 16777216
+Median of Medians: 59794
+Randomized Divide and Conquer: 59794
+Naive (to make sure): 59794
+Time Taken M-o-M: 2315
+Time Taken Randomized: 3301
+--------------------------
+Array size = 33554432
+Median of Medians: 8172
+Randomized Divide and Conquer: 8172
+Naive (to make sure): 8172
+Time Taken M-o-M: 1505
+Time Taken Randomized: 6917
+--------------------------
+Array size = 67108864
+Median of Medians: 298232
+Randomized Divide and Conquer: 298232
+Naive (to make sure): 298232
+Time Taken M-o-M: 10231
+Time Taken Randomized: 14276
+--------------------------
+PASS: 2
+============================================
+Array size = 2
+Median of Medians: 1834628038
+Randomized Divide and Conquer: 1834628038
+Naive (to make sure): 1834628038
+Time Taken M-o-M: 0
+Time Taken Randomized: 1
+--------------------------
+Array size = 4
+Median of Medians: 1632640997
+Randomized Divide and Conquer: 1632640997
+Naive (to make sure): 1632640997
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 8
+Median of Medians: -268758283
+Randomized Divide and Conquer: -268758283
+Naive (to make sure): -268758283
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 16
+Median of Medians: -105618347
+Randomized Divide and Conquer: -105618347
+Naive (to make sure): -105618347
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 32
+Median of Medians: -149779139
+Randomized Divide and Conquer: -149779139
+Naive (to make sure): -149779139
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 64
+Median of Medians: -168020820
+Randomized Divide and Conquer: -168020820
+Naive (to make sure): -168020820
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 128
+Median of Medians: 374593676
+Randomized Divide and Conquer: 374593676
+Naive (to make sure): 374593676
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 256
+Median of Medians: -88540023
+Randomized Divide and Conquer: -88540023
+Naive (to make sure): -88540023
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 512
+Median of Medians: 71096801
+Randomized Divide and Conquer: 71096801
+Naive (to make sure): 71096801
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 1024
+Median of Medians: -16786892
+Randomized Divide and Conquer: -16786892
+Naive (to make sure): -16786892
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 2048
+Median of Medians: 55537027
+Randomized Divide and Conquer: 55537027
+Naive (to make sure): 55537027
+Time Taken M-o-M: 1
+Time Taken Randomized: 0
+--------------------------
+Array size = 4096
+Median of Medians: -26462384
+Randomized Divide and Conquer: -26462384
+Naive (to make sure): -26462384
+Time Taken M-o-M: 0
+Time Taken Randomized: 1
+--------------------------
+Array size = 8192
+Median of Medians: 24442306
+Randomized Divide and Conquer: 24442306
+Naive (to make sure): 24442306
+Time Taken M-o-M: 1
+Time Taken Randomized: 1
+--------------------------
+Array size = 16384
+Median of Medians: 626637
+Randomized Divide and Conquer: 626637
+Naive (to make sure): 626637
+Time Taken M-o-M: 1
+Time Taken Randomized: 2
+--------------------------
+Array size = 32768
+Median of Medians: 1278607
+Randomized Divide and Conquer: 1278607
+Naive (to make sure): 1278607
+Time Taken M-o-M: 3
+Time Taken Randomized: 5
+--------------------------
+Array size = 65536
+Median of Medians: -2634594
+Randomized Divide and Conquer: -2634594
+Naive (to make sure): -2634594
+Time Taken M-o-M: 3
+Time Taken Randomized: 10
+--------------------------
+Array size = 131072
+Median of Medians: -764194
+Randomized Divide and Conquer: -764194
+Naive (to make sure): -764194
+Time Taken M-o-M: 14
+Time Taken Randomized: 22
+--------------------------
+Array size = 262144
+Median of Medians: 561709
+Randomized Divide and Conquer: 561709
+Naive (to make sure): 561709
+Time Taken M-o-M: 30
+Time Taken Randomized: 43
+--------------------------
+Array size = 524288
+Median of Medians: -440528
+Randomized Divide and Conquer: -440528
+Naive (to make sure): -440528
+Time Taken M-o-M: 63
+Time Taken Randomized: 89
+--------------------------
+Array size = 1048576
+Median of Medians: -5278778
+Randomized Divide and Conquer: -5278778
+Naive (to make sure): -5278778
+Time Taken M-o-M: 49
+Time Taken Randomized: 184
+--------------------------
+Array size = 2097152
+Median of Medians: 233568
+Randomized Divide and Conquer: 233568
+Naive (to make sure): 233568
+Time Taken M-o-M: 268
+Time Taken Randomized: 380
+--------------------------
+Array size = 4194304
+Median of Medians: 987082
+Randomized Divide and Conquer: 987082
+Naive (to make sure): 987082
+Time Taken M-o-M: 569
+Time Taken Randomized: 780
+--------------------------
+Array size = 8388608
+Median of Medians: -613124
+Randomized Divide and Conquer: -613124
+Naive (to make sure): -613124
+Time Taken M-o-M: 1158
+Time Taken Randomized: 1609
+--------------------------
+Array size = 16777216
+Median of Medians: 357350
+Randomized Divide and Conquer: 357350
+Naive (to make sure): 357350
+Time Taken M-o-M: 2365
+Time Taken Randomized: 3301
+--------------------------
+Array size = 33554432
+Median of Medians: 3774
+Randomized Divide and Conquer: 3774
+Naive (to make sure): 3774
+Time Taken M-o-M: 5129
+Time Taken Randomized: 6846
+--------------------------
+Array size = 67108864
+Median of Medians: 149312
+Randomized Divide and Conquer: 149312
+Naive (to make sure): 149312
+Time Taken M-o-M: 3309
+Time Taken Randomized: 14180
+--------------------------
+PASS: 3
+============================================
+Array size = 2
+Median of Medians: 1344240591
+Randomized Divide and Conquer: 1344240591
+Naive (to make sure): 1344240591
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 4
+Median of Medians: 170217115
+Randomized Divide and Conquer: 170217115
+Naive (to make sure): 170217115
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 8
+Median of Medians: -509607936
+Randomized Divide and Conquer: -509607936
+Naive (to make sure): -509607936
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 16
+Median of Medians: 321382514
+Randomized Divide and Conquer: 321382514
+Naive (to make sure): 321382514
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 32
+Median of Medians: -8363936
+Randomized Divide and Conquer: -8363936
+Naive (to make sure): -8363936
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 64
+Median of Medians: 393431459
+Randomized Divide and Conquer: 393431459
+Naive (to make sure): 393431459
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 128
+Median of Medians: -238326563
+Randomized Divide and Conquer: -238326563
+Naive (to make sure): -238326563
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 256
+Median of Medians: -5627374
+Randomized Divide and Conquer: -5627374
+Naive (to make sure): -5627374
+Time Taken M-o-M: 1
+Time Taken Randomized: 0
+--------------------------
+Array size = 512
+Median of Medians: 118826460
+Randomized Divide and Conquer: 118826460
+Naive (to make sure): 118826460
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 1024
+Median of Medians: 7794727
+Randomized Divide and Conquer: 7794727
+Naive (to make sure): 7794727
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 2048
+Median of Medians: 35536700
+Randomized Divide and Conquer: 35536700
+Naive (to make sure): 35536700
+Time Taken M-o-M: 0
+Time Taken Randomized: 1
+--------------------------
+Array size = 4096
+Median of Medians: -26554634
+Randomized Divide and Conquer: -26554634
+Naive (to make sure): -26554634
+Time Taken M-o-M: 0
+Time Taken Randomized: 1
+--------------------------
+Array size = 8192
+Median of Medians: 7607504
+Randomized Divide and Conquer: 7607504
+Naive (to make sure): 7607504
+Time Taken M-o-M: 1
+Time Taken Randomized: 1
+--------------------------
+Array size = 16384
+Median of Medians: 446492
+Randomized Divide and Conquer: 446492
+Naive (to make sure): 446492
+Time Taken M-o-M: 1
+Time Taken Randomized: 3
+--------------------------
+Array size = 32768
+Median of Medians: 21524706
+Randomized Divide and Conquer: 21524706
+Naive (to make sure): 21524706
+Time Taken M-o-M: 4
+Time Taken Randomized: 5
+--------------------------
+Array size = 65536
+Median of Medians: 7026014
+Randomized Divide and Conquer: 7026014
+Naive (to make sure): 7026014
+Time Taken M-o-M: 7
+Time Taken Randomized: 10
+--------------------------
+Array size = 131072
+Median of Medians: -2288203
+Randomized Divide and Conquer: -2288203
+Naive (to make sure): -2288203
+Time Taken M-o-M: 15
+Time Taken Randomized: 21
+--------------------------
+Array size = 262144
+Median of Medians: -5903531
+Randomized Divide and Conquer: -5903531
+Naive (to make sure): -5903531
+Time Taken M-o-M: 13
+Time Taken Randomized: 43
+--------------------------
+Array size = 524288
+Median of Medians: 3651805
+Randomized Divide and Conquer: 3651805
+Naive (to make sure): 3651805
+Time Taken M-o-M: 80
+Time Taken Randomized: 121
+--------------------------
+Array size = 1048576
+Median of Medians: -3421777
+Randomized Divide and Conquer: -3421777
+Naive (to make sure): -3421777
+Time Taken M-o-M: 70
+Time Taken Randomized: 346
+--------------------------
+Array size = 2097152
+Median of Medians: -693153
+Randomized Divide and Conquer: -693153
+Naive (to make sure): -693153
+Time Taken M-o-M: 105
+Time Taken Randomized: 381
+--------------------------
+Array size = 4194304
+Median of Medians: 456471
+Randomized Divide and Conquer: 456471
+Naive (to make sure): 456471
+Time Taken M-o-M: 567
+Time Taken Randomized: 790
+--------------------------
+Array size = 8388608
+Median of Medians: -540463
+Randomized Divide and Conquer: -540463
+Naive (to make sure): -540463
+Time Taken M-o-M: 430
+Time Taken Randomized: 1602
+--------------------------
+Array size = 16777216
+Median of Medians: 659024
+Randomized Divide and Conquer: 659024
+Naive (to make sure): 659024
+Time Taken M-o-M: 2432
+Time Taken Randomized: 3303
+--------------------------
+Array size = 33554432
+Median of Medians: -10703
+Randomized Divide and Conquer: -10703
+Naive (to make sure): -10703
+Time Taken M-o-M: 4991
+Time Taken Randomized: 6815
+--------------------------
+Array size = 67108864
+Median of Medians: 117209
+Randomized Divide and Conquer: 117209
+Naive (to make sure): 117209
+Time Taken M-o-M: 10374
+Time Taken Randomized: 14371
+--------------------------
+PASS: 4
+============================================
+Array size = 2
+Median of Medians: 676281667
+Randomized Divide and Conquer: 676281667
+Naive (to make sure): 676281667
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 4
+Median of Medians: 847690548
+Randomized Divide and Conquer: 847690548
+Naive (to make sure): 847690548
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 8
+Median of Medians: 544934279
+Randomized Divide and Conquer: 544934279
+Naive (to make sure): 544934279
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 16
+Median of Medians: 432450015
+Randomized Divide and Conquer: 432450015
+Naive (to make sure): 432450015
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 32
+Median of Medians: -494735922
+Randomized Divide and Conquer: -494735922
+Naive (to make sure): -494735922
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 64
+Median of Medians: -118890875
+Randomized Divide and Conquer: -118890875
+Naive (to make sure): -118890875
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 128
+Median of Medians: 11918378
+Randomized Divide and Conquer: 11918378
+Naive (to make sure): 11918378
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 256
+Median of Medians: 262832093
+Randomized Divide and Conquer: 262832093
+Naive (to make sure): 262832093
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 512
+Median of Medians: -154719978
+Randomized Divide and Conquer: -154719978
+Naive (to make sure): -154719978
+Time Taken M-o-M: 1
+Time Taken Randomized: 0
+--------------------------
+Array size = 1024
+Median of Medians: 71879536
+Randomized Divide and Conquer: 71879536
+Naive (to make sure): 71879536
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 2048
+Median of Medians: 63834353
+Randomized Divide and Conquer: 63834353
+Naive (to make sure): 63834353
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 4096
+Median of Medians: -34776040
+Randomized Divide and Conquer: -34776040
+Naive (to make sure): -34776040
+Time Taken M-o-M: 0
+Time Taken Randomized: 1
+--------------------------
+Array size = 8192
+Median of Medians: -1100453
+Randomized Divide and Conquer: -1100453
+Naive (to make sure): -1100453
+Time Taken M-o-M: 1
+Time Taken Randomized: 1
+--------------------------
+Array size = 16384
+Median of Medians: 7085561
+Randomized Divide and Conquer: 7085561
+Naive (to make sure): 7085561
+Time Taken M-o-M: 1
+Time Taken Randomized: 2
+--------------------------
+Array size = 32768
+Median of Medians: 27169675
+Randomized Divide and Conquer: 27169675
+Naive (to make sure): 27169675
+Time Taken M-o-M: 4
+Time Taken Randomized: 5
+--------------------------
+Array size = 65536
+Median of Medians: -1021835
+Randomized Divide and Conquer: -1021835
+Naive (to make sure): -1021835
+Time Taken M-o-M: 7
+Time Taken Randomized: 10
+--------------------------
+Array size = 131072
+Median of Medians: -978811
+Randomized Divide and Conquer: -978811
+Naive (to make sure): -978811
+Time Taken M-o-M: 15
+Time Taken Randomized: 21
+--------------------------
+Array size = 262144
+Median of Medians: -1228304
+Randomized Divide and Conquer: -1228304
+Naive (to make sure): -1228304
+Time Taken M-o-M: 31
+Time Taken Randomized: 43
+--------------------------
+Array size = 524288
+Median of Medians: 5485996
+Randomized Divide and Conquer: 5485996
+Naive (to make sure): 5485996
+Time Taken M-o-M: 62
+Time Taken Randomized: 90
+--------------------------
+Array size = 1048576
+Median of Medians: -1403649
+Randomized Divide and Conquer: -1403649
+Naive (to make sure): -1403649
+Time Taken M-o-M: 132
+Time Taken Randomized: 182
+--------------------------
+Array size = 2097152
+Median of Medians: -1188017
+Randomized Divide and Conquer: -1188017
+Naive (to make sure): -1188017
+Time Taken M-o-M: 298
+Time Taken Randomized: 463
+--------------------------
+Array size = 4194304
+Median of Medians: 1505694
+Randomized Divide and Conquer: 1505694
+Naive (to make sure): 1505694
+Time Taken M-o-M: 589
+Time Taken Randomized: 783
+--------------------------
+Array size = 8388608
+Median of Medians: 2905412
+Randomized Divide and Conquer: 2905412
+Naive (to make sure): 2905412
+Time Taken M-o-M: 452
+Time Taken Randomized: 1600
+--------------------------
+Array size = 16777216
+Median of Medians: -243839
+Randomized Divide and Conquer: -243839
+Naive (to make sure): -243839
+Time Taken M-o-M: 2509
+Time Taken Randomized: 3396
+--------------------------
+Array size = 33554432
+Median of Medians: 323875
+Randomized Divide and Conquer: 323875
+Naive (to make sure): 323875
+Time Taken M-o-M: 1697
+Time Taken Randomized: 6762
+--------------------------
+Array size = 67108864
+Median of Medians: 238642
+Randomized Divide and Conquer: 238642
+Naive (to make sure): 238642
+Time Taken M-o-M: 3656
+Time Taken Randomized: 14332
+--------------------------
+PASS: 5
+============================================
+Array size = 2
+Median of Medians: 402100338
+Randomized Divide and Conquer: 402100338
+Naive (to make sure): 402100338
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 4
+Median of Medians: 717362180
+Randomized Divide and Conquer: 717362180
+Naive (to make sure): 717362180
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 8
+Median of Medians: 366198615
+Randomized Divide and Conquer: 366198615
+Naive (to make sure): 366198615
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 16
+Median of Medians: -562271652
+Randomized Divide and Conquer: -562271652
+Naive (to make sure): -562271652
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 32
+Median of Medians: -279666529
+Randomized Divide and Conquer: -279666529
+Naive (to make sure): -279666529
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 64
+Median of Medians: 386141653
+Randomized Divide and Conquer: 386141653
+Naive (to make sure): 386141653
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 128
+Median of Medians: 72440431
+Randomized Divide and Conquer: 72440431
+Naive (to make sure): 72440431
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 256
+Median of Medians: 66290577
+Randomized Divide and Conquer: 66290577
+Naive (to make sure): 66290577
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 512
+Median of Medians: -41077888
+Randomized Divide and Conquer: -41077888
+Naive (to make sure): -41077888
+Time Taken M-o-M: 0
+Time Taken Randomized: 1
+--------------------------
+Array size = 1024
+Median of Medians: 120842027
+Randomized Divide and Conquer: 120842027
+Naive (to make sure): 120842027
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 2048
+Median of Medians: -61499511
+Randomized Divide and Conquer: -61499511
+Naive (to make sure): -61499511
+Time Taken M-o-M: 0
+Time Taken Randomized: 0
+--------------------------
+Array size = 4096
+Median of Medians: -15827168
+Randomized Divide and Conquer: -15827168
+Naive (to make sure): -15827168
+Time Taken M-o-M: 1
+Time Taken Randomized: 0
+--------------------------
+Array size = 8192
+Median of Medians: 572072
+Randomized Divide and Conquer: 572072
+Naive (to make sure): 572072
+Time Taken M-o-M: 0
+Time Taken Randomized: 1
+--------------------------
+Array size = 16384
+Median of Medians: 3343512
+Randomized Divide and Conquer: 3343512
+Naive (to make sure): 3343512
+Time Taken M-o-M: 2
+Time Taken Randomized: 2
+--------------------------
+Array size = 32768
+Median of Medians: 3979854
+Randomized Divide and Conquer: 3979854
+Naive (to make sure): 3979854
+Time Taken M-o-M: 3
+Time Taken Randomized: 5
+--------------------------
+Array size = 65536
+Median of Medians: -9478901
+Randomized Divide and Conquer: -9478901
+Naive (to make sure): -9478901
+Time Taken M-o-M: 8
+Time Taken Randomized: 10
+--------------------------
+Array size = 131072
+Median of Medians: -1188285
+Randomized Divide and Conquer: -1188285
+Naive (to make sure): -1188285
+Time Taken M-o-M: 14
+Time Taken Randomized: 21
+--------------------------
+Array size = 262144
+Median of Medians: -185968
+Randomized Divide and Conquer: -185968
+Naive (to make sure): -185968
+Time Taken M-o-M: 30
+Time Taken Randomized: 44
+--------------------------
+Array size = 524288
+Median of Medians: 4573955
+Randomized Divide and Conquer: 4573955
+Naive (to make sure): 4573955
+Time Taken M-o-M: 26
+Time Taken Randomized: 88
+--------------------------
+Array size = 1048576
+Median of Medians: -1234542
+Randomized Divide and Conquer: -1234542
+Naive (to make sure): -1234542
+Time Taken M-o-M: 131
+Time Taken Randomized: 183
+--------------------------
+Array size = 2097152
+Median of Medians: 1255235
+Randomized Divide and Conquer: 1255235
+Naive (to make sure): 1255235
+Time Taken M-o-M: 112
+Time Taken Randomized: 380
+--------------------------
+Array size = 4194304
+Median of Medians: -399401
+Randomized Divide and Conquer: -399401
+Naive (to make sure): -399401
+Time Taken M-o-M: 559
+Time Taken Randomized: 788
+--------------------------
+Array size = 8388608
+Median of Medians: 426613
+Randomized Divide and Conquer: 426613
+Naive (to make sure): 426613
+Time Taken M-o-M: 1163
+Time Taken Randomized: 1608
+--------------------------
+Array size = 16777216
+Median of Medians: 500479
+Randomized Divide and Conquer: 500479
+Naive (to make sure): 500479
+Time Taken M-o-M: 830
+Time Taken Randomized: 3287
+--------------------------
+Array size = 33554432
+Median of Medians: -330965
+Randomized Divide and Conquer: -330965
+Naive (to make sure): -330965
+Time Taken M-o-M: 1443
+Time Taken Randomized: 6818
+--------------------------
+Array size = 67108864
+Median of Medians: -233946
+Randomized Divide and Conquer: -233946
+Naive (to make sure): -233946
+Time Taken M-o-M: 10253
+Time Taken Randomized: 14090
+--------------------------
