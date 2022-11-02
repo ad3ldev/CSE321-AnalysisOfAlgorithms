@@ -4,12 +4,13 @@ import lab1.median.MediansFinder;
 import java.awt.*;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class Main {
     private static void mediansTest() throws IOException {
-        FileWriter fileWriter = new FileWriter("java-output.txt");
+        FileWriter fileWriter = new FileWriter("medians-output.txt");
         for (int times = 1; times <= 5; times++) {
             fileWriter.write("PASS: " + times + "\n");
             fileWriter.write("============================================\n");
@@ -47,16 +48,12 @@ public class Main {
         fileWriter.close();
     }
     public static void main(String[] args) throws IOException {
-//        mediansTest();
+        FileWriter fileWriter = new FileWriter("maxSquareSide-output.txt");
         MaxSquareSide maxSquareSide = new MaxSquareSide();
-        Point[] trial = maxSquareSide.readFile("input.txt");
-        Arrays.sort(trial, (a, b) -> {
-            int xComp = Integer.compare(a.x, b.x);
-            if (xComp == 0)
-                return Integer.compare(a.y, b.y);
-            else
-                return xComp;
-        });
-        System.out.println(maxSquareSide.solve(trial));
+        List<Point[]> input = new ArrayList<>(maxSquareSide.readFile("input.txt"));
+        for (int i = 0; i < input.size(); i++) {
+            fileWriter.write(maxSquareSide.solve(input.get(i))+"\n");
+        }
+        fileWriter.close();
     }
 }

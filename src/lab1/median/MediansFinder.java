@@ -8,7 +8,6 @@ public class MediansFinder {
         randomizedQuicksort(array, 0, array.length-1);
         return array[array.length/2];
     }
-
     private void randomizedQuicksort(int[] array, int low, int high) {
         if(low < high){
             int partitionIndex = randomPartition(array, low, high);
@@ -19,7 +18,6 @@ public class MediansFinder {
             }
         }
     }
-
     private int randomPartition(int[] array, int low, int high) {
         int pivotIndex = (int) (Math.random() * (high -  low + 1)) + low;
         int pivot = array[pivotIndex];

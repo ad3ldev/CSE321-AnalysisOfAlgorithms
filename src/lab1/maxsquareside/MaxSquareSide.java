@@ -5,22 +5,29 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class MaxSquareSide {
-    public Point[] readFile(String input) throws IOException {
+    public List<Point[]> readFile(String input) throws IOException {
         String filePath = new File("").getAbsolutePath();
         Path path = Paths.get(filePath, input);
         Scanner scanner = new Scanner(path);
-        int n = scanner.nextInt();
-        Point[] points = new Point[n];
-        for(int i = 0; i < n; i++){
-            points[i] = new Point();
-            points[i].x = scanner.nextInt();
-            points[i].y = scanner.nextInt();
+        int T = scanner.nextInt();
+        List<Point[]> list = new ArrayList<>();
+        for(int i = 0; i < T; i++){
+            int n = scanner.nextInt();
+            Point[] points = new Point[n];
+            for(int j = 0; j < n; j++){
+                points[j] = new Point();
+                points[j].x = scanner.nextInt();
+                points[j].y = scanner.nextInt();
+            }
+            list.add(points);
         }
         scanner.close();
-        return points;
+        return list;
     }
     public int solve(Point[] points){
         int size = partition(points, 0, points.length-1, Integer.MAX_VALUE);
