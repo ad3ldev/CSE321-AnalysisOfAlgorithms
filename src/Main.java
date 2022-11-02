@@ -50,7 +50,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         FileWriter fileWriter = new FileWriter("maxSquareSide-output.txt");
         MaxSquareSide maxSquareSide = new MaxSquareSide();
-        List<Point[]> input = new ArrayList<>(maxSquareSide.readFile("input.txt"));
+        List<Point[]> input = new ArrayList<>(maxSquareSide.readFile(args[0]));
         for (int i = 0; i < input.size(); i++) {
             fileWriter.write(maxSquareSide.solve(input.get(i))+"\n");
         }

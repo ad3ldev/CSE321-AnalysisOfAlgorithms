@@ -11,8 +11,7 @@ import java.util.Scanner;
 
 public class MaxSquareSide {
     public List<Point[]> readFile(String input) throws IOException {
-        String filePath = new File("").getAbsolutePath();
-        Path path = Paths.get(filePath, input);
+        Path path = Paths.get(input);
         Scanner scanner = new Scanner(path);
         int T = scanner.nextInt();
         List<Point[]> list = new ArrayList<>();
