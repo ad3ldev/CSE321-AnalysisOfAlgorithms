@@ -1,5 +1,6 @@
 import lab1.maxsquareside.MaxSquareSide;
 import lab1.median.MediansFinder;
+import sorting.InsertionSort;
 
 import java.awt.*;
 import java.io.FileWriter;
@@ -47,7 +48,7 @@ public class Main {
         }
         fileWriter.close();
     }
-    public static void main(String[] args) throws IOException {
+    public static void maxSquareSide(String[] args) throws IOException{
         FileWriter fileWriter = new FileWriter("maxSquareSide-output.txt");
         MaxSquareSide maxSquareSide = new MaxSquareSide();
         List<Point[]> input = new ArrayList<>(maxSquareSide.readFile(args[0]));
@@ -55,5 +56,10 @@ public class Main {
             fileWriter.write(maxSquareSide.solve(input.get(i))+"\n");
         }
         fileWriter.close();
+    }
+    public static void main(String[] args) {
+        InsertionSort insertionSort = new InsertionSort();
+        int[] array = {8,2,4,9,3,6};
+        insertionSort.insertionSort(array, array.length);
     }
 }
