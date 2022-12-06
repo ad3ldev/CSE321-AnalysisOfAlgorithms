@@ -1,5 +1,7 @@
 import lab1.maxsquareside.MaxSquareSide;
 import lab1.median.MediansFinder;
+import lab2.Job;
+import lab2.WeightedSchedule;
 import sorting.InsertionSort;
 
 import java.awt.*;
@@ -48,18 +50,30 @@ public class Main {
         }
         fileWriter.close();
     }
-    public static void maxSquareSide(String[] args) throws IOException{
+
+    public static void maxSquareSide(String[] args) throws IOException {
         FileWriter fileWriter = new FileWriter("maxSquareSide-output.txt");
         MaxSquareSide maxSquareSide = new MaxSquareSide();
         List<Point[]> input = new ArrayList<>(maxSquareSide.readFile(args[0]));
         for (int i = 0; i < input.size(); i++) {
-            fileWriter.write(maxSquareSide.solve(input.get(i))+"\n");
+            fileWriter.write(maxSquareSide.solve(input.get(i)) + "\n");
         }
         fileWriter.close();
     }
-    public static void main(String[] args) {
+
+    public static void insertionSort() {
         InsertionSort insertionSort = new InsertionSort();
-        int[] array = {8,2,4,9,3,6};
+        int[] array = {8, 2, 4, 9, 3, 6};
         insertionSort.insertionSort(array, array.length);
+    }
+
+    public static void main(String[] args) {
+        Job jobs[] = {
+                new Job(2, 100, 200),
+                new Job(1, 2, 50),
+                new Job(3, 5, 20),
+                new Job(6, 19, 100)};
+        WeightedSchedule weightedSchedule = new WeightedSchedule();
+        System.out.println(weightedSchedule.schedule(jobs));
     }
 }
