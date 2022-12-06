@@ -5,11 +5,11 @@ import lab2.WeightedSchedule;
 import sorting.InsertionSort;
 
 import java.awt.*;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Main {
     private static void mediansTest() throws IOException {
@@ -67,13 +67,29 @@ public class Main {
         insertionSort.insertionSort(array, array.length);
     }
 
-    public static void main(String[] args) {
-        Job jobs[] = {
-                new Job(2, 100, 200),
-                new Job(1, 2, 50),
-                new Job(3, 5, 20),
-                new Job(6, 19, 100)};
+    public static void weightedSchedule(String path) throws IOException {
+        Scanner scanner = new Scanner(new File(path));
+        int i = 0;
+        int n = 0;
+        if(scanner.hasNextInt()){
+            n = scanner.nextInt();
+        }
+        Job[] jobs = new Job[n];
+        while(scanner.hasNextInt())
+        {
+            jobs[i]= new Job(scanner.nextInt(), scanner.nextInt(),scanner.nextInt());
+            i++;
+        }
+        scanner.close();
         WeightedSchedule weightedSchedule = new WeightedSchedule();
-        System.out.println(weightedSchedule.schedule(jobs));
+        int maxWeight = weightedSchedule.schedule(jobs);
+        String outputPath = path.replace(".in", "_17012296.out");
+        FileWriter fileWriter = new FileWriter(outputPath);
+        fileWriter.write(maxWeight + "\n");
+        fileWriter.close();
+    }
+
+    public static void main(String[] args) throws IOException {
+        weightedSchedule(args[0]);
     }
 }
